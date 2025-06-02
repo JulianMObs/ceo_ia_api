@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ceo-ia-api
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: GEMINI_API_KEY
+        value: AIzaSyDZDR-R40JbcAuAsU02_fhUfu4BgBRLCA0
